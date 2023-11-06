@@ -47,50 +47,54 @@ const Profile = () => {
                 </div>
             </div>
             <div className='flex w-full flex-col justify-center items-center text-sm w-full mb-8 mt-1'>
-                <div className='w-2/3 flex flex-row justify-center items-center py-4 border shadow'>
-                    <div className='w-full flex items-center justify-center'>
-                        <div className='w-2/3 flex flex-col py-1'>
-                            <p className='py-1'>Phone no.</p>
-                            <p className='py-1'>Mail Id.</p>
-                            <p className='py-1'>Affected Side</p>
-                            <p className='py-1'>Condition</p>
-                            <p className='py-1'>Speciality</p>
-                        </div>
-                    </div>
+                <div className='pl-4 w-2/3 flex flex-row justify-center items-center py-4 border shadow'>
                     <div className='w-full flex py-1 justify-center items-center'>
                         <div className='w-2/3 flex flex-col'>
-                            <div className='flex flex-row items-center py-1'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" id="phone"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"></path></svg>
-                                <p className='pl-2'>8022333445</p>
+                            <div className='w-full flex flex-row'>
+                                <p className='w-1/2 py-1'>Phone no.</p>
+                                <div className='w-1/2 flex flex-row items-center justify-start py-1'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" id="phone"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"></path></svg>
+                                    <p className='pl-2'>8022333445</p>
+                                </div>
                             </div>
-                            <div className='flex flex-row py-1 items-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" id="email"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg>
-                                <p className='pl-2'>MeenaRabinSachin2@gmail.com</p>
+                            <div className='w-full flex flex-row py-1 items-center '>
+                                <p className='w-1/2'>Mail Id.</p>
+                                <div className='w-1/2 flex flex-row items-center justify-start'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="email"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg>
+                                    <p className='pl-2'>MeenaRabinSachin2@gmail.com</p>
+                                </div>
                             </div>
-                            <div className='flex flex-row py-1 items-center'>
-                                <img className='w-4 h-4' src='https://cdn-icons-png.flaticon.com/128/3103/3103997.png' alt='bilateral'/>
-                                <p className='pl-2'>Bilateral</p>
+                            <div className='w-full flex flex-row'>
+                                <p className='w-1/2 py-1'>Affected Side</p>
+                                <div className='w-1/2 flex flex-row py-1 items-center justify-start'>
+                                    <img className='w-4 h-4' src='https://cdn-icons-png.flaticon.com/128/3103/3103997.png' alt='bilateral'/>
+                                    <p className='pl-2'>Bilateral</p>
+                                </div>
                             </div>
-                            <div className='flex flex-row py-1'>
-                                <img className='w-4 h-4' src="https://img.icons8.com/ios/50/knee-joint.png" alt="knee-joint"/>
-                                <p className='pl-2'>Ortho</p>
+                            <div className='w-full flex flex-row'>
+                                <p className='w-1/2 py-1'>Condition</p>
+                                <div className='w-1/2 flex flex-row py-1 items-center justify-start'>
+                                    <img className='w-4 h-4' src="https://img.icons8.com/ios/50/knee-joint.png" alt="knee-joint"/>
+                                    <p className='pl-2'>Ortho</p>
+                                </div>
                             </div>
-                            <div className='flex flex-row py-1 items-center'>
-                                <img className='w-4 h-4' src='https://www.svgrepo.com/show/81677/first-aid-box.svg' alt='first-aid-box'/>
-                                <p className='pl-2'>Osteo Arthritis</p>
+                            <div className='w-full flex flex-row justify-center items-center'>
+                                <p className='w-1/2 py-1'>Speciality</p>
+                                <div className='w-1/2 flex flex-row py-1 items-center justify-start'>
+                                    <img className='w-4 h-4' src='https://www.svgrepo.com/show/81677/first-aid-box.svg' alt='first-aid-box'/>
+                                    <p className='pl-2'>Osteo Arthritis</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='w-2/3 flex items-center justify-center py-4 border-b shadow mb-8'>
                     <div className='w-full flex flex-row items-center justify-center'>
-                        <div className='w-full flex items-center justify-center'>
-                            <div className='flex w-4/5 flex-row'>
-                                <img className='w-4 h-4' src='https://img.icons8.com/?size=128&id=VBQtwbyCq79r&format=png'/>
-                                <p className='w-full pl-2 font-medium'>Medical History</p>
-                            </div>
+                        <div className='w-1/2 flex items-center justify-center'>
+                            <img className='w-4 h-4' src='https://img.icons8.com/?size=128&id=VBQtwbyCq79r&format=png'/>
+                            <p className='pl-2 font-medium'>Medical History</p>
                         </div>
-                        <div className='w-full flex justify-center'>
+                        <div className='w-1/2 flex justify-start'>
                             <div className='w-9/12 flex items-center'>
                                 <p>Hypertension, DM, Hyperthyrodism</p>
                             </div>
